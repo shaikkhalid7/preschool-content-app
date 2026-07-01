@@ -18,7 +18,7 @@ st.markdown("""
     h2, h3 { color: #34495E; font-family: 'Poppins', sans-serif; }
     .stTabs [data-baseweb="tab"] { font-size: 16px; font-weight: bold; }
     </style>
-""", unsafe_type=True)
+""", unsafe_allow_html=True)
 
 st.title("🧸 Preschool Social Media Master Workspace")
 st.markdown("Welcome to your agency-grade content management hub. Navigate through content pillars, preview copy formats, and export sheets to Excel instantly.")
